@@ -1,0 +1,65 @@
+MoAcessa o sistema;  
+
+* Transação SE61 (Modificação de documento)  
+
+* Em documento: insere o nome do documento, por exemplo: ZLOGIN_SCREEN_INFO;  
+
+* Clica no enter;  
+
+* Seleciona a opção: ir para > mudar editor > Clica na opção sim;  
+
+* Depois de modificar, clica no ícone para gravar ativo (ctrl + F11).  
+
+  
+
+  
+
+---------------------------------------------------------------------------------------------------------  
+
+Importante: Caso o ambiente esteja bloqueado para modificações é necessário realizar o seguinte processo:  
+
+---------------------------------------------------------------------------------------------------------  
+
+  
+
+  
+
+* Transação SCC4;  
+
+* Seleciona o ambiente;  
+
+* Verifica o cenário (se possível bate um print);  
+
+* Modificações e transporte p/objetos dependetes de objetos: Seleciona a opção registro automático de modificações;  
+
+* Modificações de objetos válidos para vários mandantes: Permitidas modifs. em repository e customiz. vál. tds. mandantes  
+
+  
+
+  
+
+---------------------------------------------------------------------------------------------------------  
+
+Importante: Depois de realizado as modificações é necessário voltar para o cenário antigo (bloqueado)  
+
+---------------------------------------------------------------------------------------------------------  
+
+  
+
+  
+
+- Depois de bloquear na transação SCC4, devemos bloquear também na SE06.  
+
+  
+
+  
+
+* Transação SE06;  
+
+* Seleciona a opção: Opções de modificação do sistema;  
+
+* Em Compon.software: Seleciona a opção não modificável (Caso esteja modificável);  
+
+* Em Espaço/área de nomes: Seleciona a opção não modificável (Caso esteja modificável);  
+
+* Clica em salvar (ícone do disquiet).  
